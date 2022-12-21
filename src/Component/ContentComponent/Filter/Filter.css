@@ -1,0 +1,79 @@
+.filter {
+  margin-top: 20px;
+  min-width: 260px;
+  max-width: 280px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 10px;
+}
+.filter .filter-box {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-right: 20px;
+}
+.filter .filter-box .sorting {
+  border-radius: 6px;
+  background-color: rgb(224, 224, 224);
+  padding: 10px;
+  margin-bottom: 10px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  box-shadow: 2px 2px 6px rgb(191, 191, 191);
+}
+.filter .filter-box .sorting .feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.filter .filter-box .sorting .feature h4 {
+  margin: 10px 20px;
+  text-align: left;
+}
+.filter .filter-box .sorting .feature svg {
+  display: block;
+  margin: 0 14px;
+  width: 20px;
+  height: 20px;
+  transition: 1s;
+}
+.filter .filter-box .sorting .feature .rotate {
+  display: block;
+  margin: 0 14px;
+  margin-top: -24px;
+  width: 20px;
+  height: 20px;
+  rotate: 90deg;
+}
+.filter .filter-box .sorting .insideFeatured {
+  max-height: 0;
+  overflow: hidden;
+}
+.filter .filter-box .sorting .insideFeatured select {
+  font-size: 0.8em;
+  padding: 0.5em;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+.filter .filter-box .sorting .insideFeatured.show {
+  height: auto;
+  max-height: 999px;
+}
+.filter button {
+  padding: 10px;
+  margin: 10px;
+  min-width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color: #0d7377;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}/*# sourceMappingURL=Filter.css.map */

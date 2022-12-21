@@ -1,0 +1,27 @@
+.footer-links {
+  display: flex;
+  gap: 3em;
+}
+.footer-links .footlinks {
+  text-align: left;
+  color: white;
+  list-style: none;
+}
+.footer-links .footlinks h4 {
+  color: white;
+  font-weight: 700;
+  font-size: 1em;
+}
+.footer-links .footlinks li {
+  display: block;
+  margin-right: 10px;
+}
+.footer-links .footlinks li a {
+  font-size: 0.8em;
+  color: white;
+  text-decoration: none;
+}
+.footer-links .footlinks li a:hover {
+  color: #bababa;
+  border-radius: 6px;
+}/*# sourceMappingURL=FootLink.css.map */

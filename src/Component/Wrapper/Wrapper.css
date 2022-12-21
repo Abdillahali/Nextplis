@@ -1,0 +1,122 @@
+.content__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+
+.wrapper {
+  width: 200px;
+  min-height: 360px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgb(235, 235, 235);
+  margin-top: 20px;
+  background-color: none;
+  transition: 0.4s;
+}
+.wrapper img {
+  width: 200px;
+  height: 280px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.wrapper .movie-rate {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  display: block;
+  margin: -280px 0 0 160px;
+  background-color: black;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 4ms ease-in;
+}
+.wrapper .movie-rate p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+  width: 2.25em;
+  height: 2.25em;
+  font-weight: bold;
+  color: white;
+  z-index: 9999999;
+}
+.wrapper .title {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+  margin: 0 10px;
+  margin-bottom: 5px;
+}
+.wrapper .title h1 {
+  font-size: medium;
+  font-weight: 600;
+  color: rgb(58, 58, 58);
+  transition: 0.2s;
+}
+.wrapper .title h1:hover {
+  color: rgb(0, 0, 0);
+}
+.wrapper .date {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 0 10px;
+  font-size: small;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.wrapper .date p {
+  margin-left: 10px;
+}
+
+.wrapper:hover {
+  transform: scale(1.01);
+  opacity: 0.8;
+  cursor: pointer;
+}
+.wrapper:hover img {
+  transform: scale(1);
+  border-radius: 14px;
+}
+.wrapper:hover .movie-rate {
+  opacity: 1;
+  transition: 0.4s ease-in;
+}
+
+.item-wrapper::before {
+  content: url(../../../src/img/play-button-arrowhead.png);
+  background: rgb(13, 115, 119);
+  opacity: 0;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  border-radius: 10px;
+  padding: 0.7em 1em;
+  margin-top: 120px;
+  margin-left: 73px;
+  transition: 0.4s ease-in;
+  z-index: 99;
+  transform: scale(1);
+}
+
+.item-wrapper:hover::before {
+  content: url(../../../src/img/play-button-arrowhead.png);
+  opacity: 1;
+  position: absolute;
+  font-weight: bold;
+  color: white;
+  padding: 0.7em 1em;
+  margin-top: 120px;
+  margin-left: 73px;
+  z-index: 99;
+  transition: 0.4s ease-in-out;
+  transform: scale(0.8);
+}/*# sourceMappingURL=Wrapper.css.map */

@@ -1,0 +1,52 @@
+.navlinks {
+  position: relative;
+  text-align: left;
+  z-index: 99;
+}
+.navlinks .nav-button {
+  padding: 10px 0;
+}
+.navlinks .arrow {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  margin-top: -1.5em;
+  rotate: 45deg;
+}
+.navlinks .group-link {
+  position: absolute;
+  margin-top: 0;
+  padding: 1.1em;
+  border-radius: 6px;
+  background-color: white;
+  margin-left: 1.2em;
+  cursor: pointer;
+  visibility: hidden;
+  transition-delay: 0.1s;
+}
+.navlinks .group-link .dropdown-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-transform: uppercase;
+  list-style: none;
+}
+.navlinks .group-link .dropdown-link .list-link a {
+  font-size: small;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  display: block;
+  margin: 4px;
+  width: 100px;
+  padding: 4px 8px;
+}
+.navlinks .group-link .dropdown-link .list-link:hover {
+  background-color: rgb(238, 238, 238);
+  border-radius: 4px;
+}
+
+.navlinks:hover .group-link {
+  visibility: visible;
+}/*# sourceMappingURL=NavLink.css.map */

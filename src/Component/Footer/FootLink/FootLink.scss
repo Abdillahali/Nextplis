@@ -1,0 +1,30 @@
+.footer-links {
+  display: flex;
+  gap: 3em;
+
+  .footlinks {
+    text-align: left;
+    color: white;
+    list-style: none;
+
+    h4 {
+      color: white;
+      font-weight: 700;
+      font-size: 1em;
+    }
+    li {
+      display: block;
+      margin-right: 10px;
+
+      a {
+        font-size: 0.8em;
+        color: white;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #bababa;
+        border-radius: 6px;
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+footer {
+  background-color: #0b4f52;
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  bottom: 0;
+}
+footer .footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 10em;
+  gap: 3em;
+  padding: 2em;
+}
+footer .desc-logo {
+  padding: 10px;
+}
+footer .desc-logo img {
+  width: 5vw;
+  display: block;
+}
+footer .desc-logo .description {
+  text-align: left;
+  width: 20vw;
+  display: block;
+  margin: auto;
+}
+footer .desc-logo .description h5 {
+  color: white;
+  font-weight: 300;
+}
+footer .menu {
+  display: block;
+  gap: 1em;
+}
+footer .social-media .sosmed-list ul {
+  display: flex;
+  list-style: none;
+}
+footer .social-media .sosmed-list ul li {
+  padding: 10px;
+  fill: white;
+}
+footer .social-media p {
+  color: white;
+  font-weight: 300;
+  font-size: small;
+  text-align: left;
+}/*# sourceMappingURL=Footer.css.map */

@@ -1,0 +1,76 @@
+.navbar {
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 80px;
+  width: 100%;
+  z-index: 99;
+}
+.navbar .left {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+}
+.navbar .left img {
+  width: 120px;
+  margin-right: 20px;
+}
+.navbar .left h1 {
+  font-size: 1em;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.navbar .left .movie {
+  padding: 10px auto;
+  display: flex;
+}
+.navbar .right {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+}
+.navbar .right .input-search {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  height: 2em;
+}
+.navbar .right .input-search input {
+  padding-left: 0.6em;
+  height: 2.1em;
+  width: 20vw;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: 0.1px solid gray;
+  transition: 0.2s;
+  padding-left: 10px;
+}
+.navbar .right .input-search input:focus {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  outline: none;
+  border: 1px solid rgb(0, 0, 0);
+}
+.navbar .right .input-search button {
+  height: 100%;
+  font-weight: bold;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: -1px;
+  border: 1.2px solid black;
+}
+.navbar .right .input-search button svg {
+  padding: 0 4px;
+}
+.navbar .right .username {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.navbar .right .username h1 {
+  margin-left: 0.4em;
+  font-size: 1em;
+  color: #474747;
+}/*# sourceMappingURL=Navbar.css.map */
